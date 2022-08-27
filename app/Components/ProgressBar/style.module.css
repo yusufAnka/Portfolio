@@ -1,0 +1,20 @@
+.progress{
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 7px;
+    overflow: hidden;
+}
+
+.mainProgress{
+    width: 45%;
+}
+
+.skillsBar{
+    height: 100%;
+    font-size: 12px;
+    line-height: 7px;
+    color: #fff;
+    text-align: center;
+    transition: width .6s ease;
+    border-radius: 15px;
+}

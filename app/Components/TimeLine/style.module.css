@@ -1,0 +1,36 @@
+.currentTime, .description{
+    font-size: 14px;
+    color: #8b88b1;
+}
+
+.companyName{
+    font-size: 1.25em;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.timeLine{
+    position: relative;
+    background-color: var(--white-color);
+    width: 100%;
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.timeLineImg img{
+    object-fit: cover;
+}
+
+
+.timeLineImg{
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    z-index: 50;
+}
+
+.title{
+    font-weight: bold;
+    color: var(--primary-color);
+    font-family: var(--font);
+}

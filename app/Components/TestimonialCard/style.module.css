@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.information h1{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-top: 0.6em;
+}
+.information p{
+  color: #8b88b1;
+  font-weight: 500;
+}
+
+.description{
+    box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    max-width: 550px;
+    margin-top: 1.5em;
+}
+.description p {
+    color: #8b88b1;
+}
