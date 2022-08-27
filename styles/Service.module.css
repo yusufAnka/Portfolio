@@ -1,0 +1,10 @@
+.service{
+    padding: 5em 0px;
+}
+
+.row{
+    margin-top:3em;
+    display: flex;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}

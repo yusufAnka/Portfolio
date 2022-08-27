@@ -1,0 +1,41 @@
+.experience{
+    padding: 5em 0px;
+}
+.row{
+    margin-top: 3em;
+    display: flex;
+    gap: 1.25em;
+}
+
+.education, .job_experience{
+    box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+    background-color: var(--white-color);
+    padding: 2em;
+    border-radius: 10px;
+    width: 520px;
+    position: relative;
+}
+
+
+.line {
+    position: absolute;
+    width: 2px;
+    background-color: #ff4c60;
+    top: 30px;
+    bottom: 30px;
+    left: 25px;
+    z-index: 10;
+}
+
+.education{
+    height: 100% !important;
+}
+
+@media (max-width:550px){
+    .row{
+        flex-direction: column;
+    }
+    .education, .job_experience{
+        width: 100%;
+    }
+}

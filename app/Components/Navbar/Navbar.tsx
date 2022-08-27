@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
-import styles from "./style.module.css";
+// import styles from './style.module.css';
 
 const Navbar = () => {
   const router = useRouter();

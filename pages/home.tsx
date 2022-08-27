@@ -1,6 +1,7 @@
-import styles from "../styles/Home.module.css";
+import React from "react"
+// import styles  from "../styles/Home.module.css;
 import Image from "next/image";
-import aboutImg from "../app/Asset/Razu.jpg";
+// import aboutImg from "../app/Asset/yusuf.jpeg";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import {
