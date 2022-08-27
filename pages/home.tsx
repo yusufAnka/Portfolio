@@ -1,7 +1,6 @@
-import React from "react"
-// import styles  from "../styles/Home.module.css;
+import styles from "../styles/Home.module.css";
 import Image from "next/image";
-// import aboutImg from "../app/Asset/yusuf.jpeg";
+import aboutImg from "../app/Asset/Razu.jpg";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import {
@@ -13,7 +12,7 @@ import {
 } from "react-icons/fa";
 import SocialMedia from "../app/Components/SocialMediaIcon/SocialMedia";
 import Button from "../app/Components/Button/Button";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 const Home = () => {
   const textRef = useRef() as React.MutableRefObject<HTMLSpanElement>;
@@ -80,32 +79,37 @@ const Home = () => {
             </h3>
           </div>
           <div className={styles.social}>
-              <SocialMedia
-                icon={<FaInstagram size={20} />}
-                link="https://www.instagram.com/jsdevrazu"
-              />
-              <SocialMedia
-                icon={<FaYoutube size={20} />}
-                link="https://www.youtube.com/channel/UCv54fMK_UR7SJX70W02usaA/videos"
-              />
-              <SocialMedia
-                icon={<FaLinkedinIn size={20} />}
-                link="https://www.linkedin.com/in/md-razu-islam"
-              />
-              <SocialMedia
-                icon={<FaGithub size={20} />}
-                link="https://github.com/jsdevraju"
-              />
-              <SocialMedia
-                icon={<FaFacebookF size={20} />}
-                link="https://www.instagram.com/jsdevrazu"
-              />
-            </div>
-            <Button onClick={() => router.push("/contact")} className="app_btn second" type="button" style={{
-              marginTop:"1em"
-            }}>
-              Hire Me
-            </Button>
+            <SocialMedia
+              icon={<FaInstagram size={20} />}
+              link="https://www.instagram.com/jsdevrazu"
+            />
+            <SocialMedia
+              icon={<FaYoutube size={20} />}
+              link="https://www.youtube.com/channel/UCv54fMK_UR7SJX70W02usaA/videos"
+            />
+            <SocialMedia
+              icon={<FaLinkedinIn size={20} />}
+              link="https://www.linkedin.com/in/md-razu-islam"
+            />
+            <SocialMedia
+              icon={<FaGithub size={20} />}
+              link="https://github.com/jsdevraju"
+            />
+            <SocialMedia
+              icon={<FaFacebookF size={20} />}
+              link="https://www.instagram.com/jsdevrazu"
+            />
+          </div>
+          <Button
+            onClick={() => router.push("/contact")}
+            className="app_btn second"
+            type="button"
+            style={{
+              marginTop: "1em",
+            }}
+          >
+            Hire Me
+          </Button>
         </div>
       </section>
     </>
