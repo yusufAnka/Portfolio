@@ -4,14 +4,15 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import img from '../assets/yusuf.jpeg'
 
 function Home() {
   return (
     <div className="home">
-      <div className="about">
-        <h2> Hi, My Name is Yusuf Anka</h2>
-        <div className="prompt">
-          <p>
+      <div className= "content">  
+        <div className="about">
+        <h2 className=""> Hi, My Name is Yusuf Anka</h2>
+        <p className="prompt">
             As a passionate Javascript Engineer with experience in Software
             Engineering, I enjoy implementing light and scalable solutions using
             the best Agile practices for the satisfaction I get by overcoming
@@ -19,7 +20,12 @@ function Home() {
             learn and adapt to new environments quickly and build solutions
             around them.
           </p>
-        
+        </div>
+        <div className="profile">
+          <img className="img" src={img} alt="profile"/>
+          <p>Hire Me</p>
+        </div>
+        <div className="media">
             <a href="https://twitter.com/YusufAnka_">
               <TwitterIcon />
             </a>
@@ -35,6 +41,7 @@ function Home() {
         
         </div>
       </div>
+      
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">

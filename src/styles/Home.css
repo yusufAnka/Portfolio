@@ -1,37 +1,51 @@
 .home {
   width: 100%;
-  align-items: center;
+  /* align-items:center; */
   font-family: "Arial", sans-serif;
   color: #3e497a;
 }
-
+.content {
+  display:flex
+}
+.img {
+  width: 300px;
+  height: 290px;
+  border-radius: 55%;
+  align-items: right;
+  margin-right: 10rem;
+  margin-top: 10rem;
+  border:10px solid #21325e
+}
 .about {
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  text-align: center;
-  background-color: #21325e;
-  color: #f0f0f0;
+  /* text-align: center; */
+  /* background-color: rgb(219, 202, 202); */
+  color: #21325e;
+  margin-right: 10rem;
+  margin-top: 10rem;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 60px;
-  color: #4bd8f1;
+  font-size: 30px;
+  color: #21325e;
   height: 50px;
 }
+
 
 .about .prompt {
   width: 40%;
   font-size: 20px;
 }
 .prompt svg {
-  font-size: 60px;
-  margin: 5px;
-  color: white;
+  font-size: 45px;
+  margin: 10px;
+  color: #21325e;
 }
 
 .skills {
@@ -44,7 +58,7 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #21325e;
 }
 
 .skills .list {
