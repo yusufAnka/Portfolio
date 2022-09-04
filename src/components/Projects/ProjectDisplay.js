@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { ProjectList } from "../helpers/ProjectList";
+import { ProjectList } from "../../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import "../styles/ProjectDisplay.css";
+import "./ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();

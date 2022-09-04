@@ -5,29 +5,32 @@
   color: #3e497a;
 }
 .content {
-  display:flex
+  display:grid;
+  grid-template-columns: 35% 50%;
+  gap:15%
+
 }
 .img {
   width: 300px;
   height: 290px;
   border-radius: 55%;
-  align-items: right;
-  margin-right: 10rem;
-  margin-top: 10rem;
-  border:10px solid #21325e
+  border:15px solid #21325e;
+  overflow:hidden;
+}
+.profile{
+  width:100%;
+  aspect-ratio: 1/1;
+  display:grid;
+  place-items: center;
 }
 .about {
-  width: 100%;
+  width:50%;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  /* text-align: center; */
-  /* background-color: rgb(219, 202, 202); */
+  text-align: center;
   color: #21325e;
-  margin-right: 10rem;
-  margin-top: 10rem;
+  margin: auto;
 }
 
 .about h2 {
@@ -46,6 +49,21 @@
   font-size: 45px;
   margin: 10px;
   color: #21325e;
+}
+.media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 5rem;
+  top: 18rem;
+}
+.media::after{
+  content: "";
+  width: 5px;
+  height: 3rem;
+  background: #3e497a;
 }
 
 .skills {
@@ -69,11 +87,30 @@
 .list span {
   font-size: 20px;
 }
+.btn{
+  width: max-content;
+  display: inline-block;
+  color:#3e497a;
+  padding:0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #3e497a;
+}
+.btn:hover{
+  background-color: aliceblue;
+  color: #21325e;
+  border-color: #3e497a;
+
+}
 
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
   }
+  .content {
+    display:inline;
+  }
+
 
   .about .prompt {
     margin-top: 10px;

@@ -1,0 +1,31 @@
+.btn{
+    width: max-content;
+    display: inline-block;
+    color:#f3f4f9;
+    padding:0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #3e497a;
+    background: #21325e;
+  }
+  .btn:hover{
+    background-color: aliceblue;
+    color: #21325e;
+    border-color: #3e497a;
+  
+  }
+  .btn-primary{
+    background: #6ad5f8;
+    color:aliceblue
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .VL{
+    border-left: 6px solid rgb(14, 83, 103) ; 
+    height: 500px;
+    left: 50%;
+  }
+  .CV{
+   justify-content: center;
+  }
