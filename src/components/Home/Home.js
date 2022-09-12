@@ -13,7 +13,7 @@ function Home() {
       <div className= "content">  
         <div className="profile">
           <img className="img" src={img} alt="profile"/>
-          <h2 className=""> Hi, My Name is Yusuf Anka</h2>
+          <h2 className="H1"> Hi, My Name is Yusuf Anka</h2>
           <Cv />
           
         </div>
