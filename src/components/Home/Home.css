@@ -28,10 +28,13 @@
   width:100%;
   height: calc(100vh - 100px);
   /* display: flex; */
-  flex-direction: column;
+  /* flex-direction: column; */
   text-align: center;
   color: #21325e;
-  margin: auto;
+  /* margin: auto; */
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
 }
 
 .about h2 {
@@ -43,8 +46,10 @@
 
 
 .about .prompt {
-  width: 40%;
+  width: 80%;
   font-size: 20px;
+  line-height: 1.6;
+  font-style: italic;
 }
 .prompt svg {
   font-size: 45px;
