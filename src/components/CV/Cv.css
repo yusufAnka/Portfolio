@@ -6,11 +6,12 @@
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid #3e497a;
-    background: #21325e;
+    background: #e1e7f6;
+    margin-top: 1rem;
   }
   .btn:hover{
     background-color: aliceblue;
-    color: #21325e;
+    color: #2f0a0a;
     border-color: #3e497a;
   
   }
@@ -20,6 +21,7 @@
   }
   a:link {
     text-decoration: none;
+    color: #2f0a0a;
   }
   .VL{
     border-left: 6px solid rgb(14, 83, 103) ; 
