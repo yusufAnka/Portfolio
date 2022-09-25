@@ -7,6 +7,7 @@ import ProjectDisplay from "./components/Projects/ProjectDisplay";
 import EducationPage from "./pages/Education";
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
+import Skills from "./components/Skills/Skills"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/education" element={<EducationPage />}/>
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
         <Footer />
       </Router>

@@ -7,17 +7,6 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div className="socialMedia">
-        <a href="https://twitter.com/YusufAnka_">
-          <TwitterIcon />
-        </a>
-        <a href="https://www.linkedin.com/in/yusufanka/">
-          <LinkedInIcon />
-        </a>
-        <a href="https://github.com/yusufAnka">
-          <GithubIcon />
-        </a>
-      </div>
       <p> &copy; 2022 yumtech.com</p>
     </div>
   );

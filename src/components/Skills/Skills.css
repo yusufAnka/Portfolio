@@ -1,0 +1,76 @@
+.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color: #21325e;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  .btn{
+    width: max-content;
+    display: inline-block;
+    color:#3e497a;
+    padding:0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid #3e497a;
+  }
+  .btn:hover{
+    background-color: aliceblue;
+    color: #21325e;
+    border-color: #3e497a;
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+    .content {
+      display:inline;
+    }
+  
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+    .media{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      position: absolute;
+      left: 10rem;
+      top: 28rem;
+    }
+    .H1 {
+      margin-top: 60px;
+    }
+  }
+  
