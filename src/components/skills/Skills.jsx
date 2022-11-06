@@ -18,7 +18,7 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <BsPatchCheckFill className='skills_details-icon' />
-                        <div><h4>React</h4>
+                        <div><h4>React.JS</h4>
                         <small className='text-light'>Experience</small>
                         </div>
                     </article>
@@ -30,9 +30,9 @@ const Skills = () => {
                     </article>
                     <article className='skills__details'>
                         <BsPatchCheckFill className='skills_details-icon' />
-                        <div><h4>Typescript</h4>
+                        <div><h4>Tailwind CSS</h4>
                         <small className='text-light'>Experience</small>
-                        </div>
+                        </div> 
                     </article>
                     <article className='skills__details'>
                         <BsPatchCheckFill className='skills_details-icon' />

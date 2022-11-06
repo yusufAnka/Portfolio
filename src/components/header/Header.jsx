@@ -3,7 +3,9 @@ import './header.css'
 import CTA from "./CTA"
 import HeaderSocials from './HeaderSocials'
 import Anka from "../../assets/yusuf.jpeg"
-import {FaAward} from 'react-icons/fa'
+import {FaAward} from 'react-icons/fa';
+import { BiCertification } from 'react-icons/bi';
+import { MdCastForEducation } from 'react-icons/md'; 
 
 const Header = () => {
   return (
@@ -11,15 +13,17 @@ const Header = () => {
         <section id='about'> 
             <div className='container about__container'>
                 <div className='about__me'>
-                    <div className='about__me-image'>
-                        <img src={Anka} alt="yusuf" />
+                    <div>
+                        <div className='about__me-image'>
+                            <img src={Anka} alt="yusuf" />
+                        </div>
+                        
+                        <h5 className='txt'>Frontend Developer</h5>
+                        <CTA />
+                        
                     </div>
-                    
-                    <h5 className='text-light'>Full-Stack Developer</h5>
-                    <CTA />
                     <HeaderSocials />
                 </div>
-
                 <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>
@@ -29,15 +33,15 @@ const Header = () => {
                         </article>
 
                         <article className='about__card'>
-                            <FaAward className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>3+ Years Working Experience</small>
+                            <MdCastForEducation className='about__icon'/>
+                            <h5>Education</h5>
+                            <small>B.Sc Computer Science</small>
                         </article>
 
                         <article className='about__card'>
-                            <FaAward className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>3+ Years Working Experience</small>
+                            <BiCertification className='about__icon'/>
+                            <h5>Certifications</h5>
+                            <small>CCNA | SCRUM | Cyber-Security | Software Engineering</small>
                         </article>
 
                     </div>
