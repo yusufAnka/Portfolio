@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e8e4f0d6.css",
+    "main.js": "/static/js/main.f00d056b.js",
+    "static/media/proj4.png": "/static/media/proj4.a5dae58527d0fb557e28.png",
+    "static/media/proj5.png": "/static/media/proj5.f900785faf51d7c053b6.png",
+    "static/media/REC.pdf": "/static/media/REC.5ee134653b9e4b7f037f.pdf",
+    "static/media/proj2.png": "/static/media/proj2.3b60f583a0016df285f6.png",
+    "static/media/CV.pdf": "/static/media/CV.241fe129dceb239212b6.pdf",
+    "static/media/tmb.jpeg": "/static/media/tmb.af75f752a32d5ab4af9f.jpeg",
+    "static/media/proj3.png": "/static/media/proj3.6174cb306047ba2af6ab.png",
+    "static/media/Lawrance.jpeg": "/static/media/Lawrance.2bdc006cc0dee9009bc3.jpeg",
+    "static/media/yahaya.jpeg": "/static/media/yahaya.b1cf8aca44ca3bdaea5e.jpeg",
+    "static/media/hod.jpeg": "/static/media/hod.8f96eb6624283eab238e.jpeg",
+    "static/media/Mubarak.jpeg": "/static/media/Mubarak.ddc8c1e3dda653f785e7.jpeg",
+    "static/media/yusuf.jpeg": "/static/media/yusuf.4272afc5f82283dde129.jpeg",
+    "static/media/Ebenezer.jpeg": "/static/media/Ebenezer.2aa39c3eecb47cdd635a.jpeg",
+    "static/media/proj1.jpg": "/static/media/proj1.3fb0bdc7583872ea12b3.jpg",
+    "index.html": "/index.html",
+    "main.e8e4f0d6.css.map": "/static/css/main.e8e4f0d6.css.map",
+    "main.f00d056b.js.map": "/static/js/main.f00d056b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8e4f0d6.css",
+    "static/js/main.f00d056b.js"
+  ]
+}
