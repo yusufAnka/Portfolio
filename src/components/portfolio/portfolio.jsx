@@ -9,6 +9,20 @@ import proj5 from "../../assets/proj5.png";
 import proj6 from "../../assets/proj6.png";
 const data = [
   {
+    id: 1,
+    img: proj3,
+    title: "Decagon Fellowship website",
+    github: "https://github.comhttps://github.com/decadevs/score-card-api",
+    demo: "https://fellowship.decagonhq.dev/engineer/login",
+  },
+  {
+    id: 2,
+    img: proj4,
+    title: "Contributed to: Fizido Payment Application (c)Califf Technology",
+    github: "https://fizido.com/#FAQs",
+    demo: "https://online.fizido.com/",
+  },
+  {
     id: 3,
     img: proj1,
     title: "Accessified",
@@ -21,21 +35,6 @@ const data = [
     title: "TMB Catalog",
     github: "https://github.com/yusufAnka/TMB-Frontend.git",
     demo: "https://tmb-frontend-two.vercel.app/",
-  },
-
-  {
-    id: 1,
-    img: proj3,
-    title: "Decagon Fellowship website",
-    github: "https://github.comhttps://github.com/decadevs/score-card-api",
-    demo: "https://fellowship.decagonhq.dev/engineer/login",
-  },
-  {
-    id: 2,
-    img: proj4,
-    title: "Contributed to: Fizido Payment Application (c)Califf Technology",
-    github: "https://fizido.com/#FAQs",
-    demo: "https://fizido.com/#FAQs",
   },
   {
     id: 5,
