@@ -34,8 +34,8 @@ const data = [
     id: 4,
     img: proj4,
     title: "Contributed to: Fizido Payment Application (c)Califf Technology",
-    github: "https://github.com",
-    demo: "www.yusuf.com",
+    github: "https://fizido.com/#FAQs",
+    demo: "https://fizido.com/#FAQs",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const data = [
     title: "Score Card",
     github:
       "https://github.com/decadevs/live-project-score-card-sq011a-group-2-frontend-group-2-project-node-sq011",
-    demo: "https://studperf.netlify.app/",
+    demo: "https://github.com/yusufAnka/Score-Card",
   },
   {
     id: 6,
