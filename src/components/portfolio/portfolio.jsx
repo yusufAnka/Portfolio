@@ -9,14 +9,14 @@ import proj5 from "../../assets/proj5.png";
 import proj6 from "../../assets/proj6.png";
 const data = [
   {
-    id: 1,
+    id: 3,
     img: proj1,
     title: "Accessified",
     github: "https://github.com/yusufAnka/Accessified",
     demo: "https://github.com/yusufAnka/Accessified",
   },
   {
-    id: 2,
+    id: 4,
     img: proj2,
     title: "TMB Catalog",
     github: "https://github.com/yusufAnka/TMB-Frontend.git",
@@ -24,14 +24,14 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 1,
     img: proj3,
     title: "Decagon Fellowship website",
     github: "https://github.comhttps://github.com/decadevs/score-card-api",
     demo: "https://fellowship.decagonhq.dev/engineer/login",
   },
   {
-    id: 4,
+    id: 2,
     img: proj4,
     title: "Contributed to: Fizido Payment Application (c)Califf Technology",
     github: "https://fizido.com/#FAQs",
