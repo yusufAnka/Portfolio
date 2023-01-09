@@ -48,8 +48,8 @@ const data = [
     id: 6,
     img: proj6,
     title: "Mama-Africa Food Recipe",
-    github: "https://github.com",
-    demo: "www.yusuf.com",
+    github: "https://github.com/yusufAnka/TMB.git",
+    demo: "https://github.com/yusufAnka/TMB.git",
   },
 ];
 const BUTTON_WRAPPER_STYLES = {
