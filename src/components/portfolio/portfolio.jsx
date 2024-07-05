@@ -10,47 +10,47 @@ import proj6 from "../../assets/proj6.png";
 const data = [
   {
     id: 1,
+    img: proj6,
+    title: "LIS-Pendens website",
+    github: "https://github.com/yusufAnka/lis-pendens",
+    demo: "https://lis-pendens.vercel.app/",
+  },
+  {
+    id: 2,
     img: proj3,
     title: "Decagon Fellowship website",
     github: "https://github.comhttps://github.com/decadevs/score-card-api",
     demo: "https://fellowship.decagonhq.dev/engineer/login",
   },
   {
-    id: 2,
+    id: 3,
     img: proj4,
     title: "Contributed to: Fizido Payment Application (c)Califf Technology",
     github: "https://fizido.com/#FAQs",
     demo: "https://online.fizido.com/",
   },
   {
-    id: 3,
+    id: 4,
     img: proj1,
     title: "Accessified",
     github: "https://github.com/yusufAnka/Accessified",
     demo: "https://github.com/yusufAnka/Accessified",
   },
   {
-    id: 4,
+    id: 5,
     img: proj2,
     title: "TMB Catalog",
     github: "https://github.com/yusufAnka/TMB-Frontend.git",
     demo: "https://tmb-frontend-two.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     img: proj5,
     title: "Score Card",
     github:
       "https://github.com/decadevs/live-project-score-card-sq011a-group-2-frontend-group-2-project-node-sq011",
     demo: "https://github.com/yusufAnka/Score-Card",
-  },
-  {
-    id: 6,
-    img: proj6,
-    title: "Mama-Africa Food Recipe",
-    github: "https://github.com/yusufAnka/TMB.git",
-    demo: "https://github.com/yusufAnka/TMB.git",
-  },
+  }
 ];
 const BUTTON_WRAPPER_STYLES = {
   position: 'relative',
