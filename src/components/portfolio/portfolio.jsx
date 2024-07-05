@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     img: proj6,
-    title: "LIS-Pendens website",
+    title: "LIS-Pendens website.",
     github: "https://github.com/yusufAnka/lis-pendens",
     demo: "https://lis-pendens.vercel.app/",
   },
