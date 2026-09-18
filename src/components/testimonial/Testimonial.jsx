@@ -30,7 +30,7 @@ const data = [
     name: "Ebenezer Ifezulike",
     title: "Mentor/Software Engineer @Decagon",
     recommendation:
-      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=2",
+      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=0",
     contact:
       "https://www.linkedin.com/in/ebenezer-ifezulike-34320015a/",
   },
@@ -40,7 +40,7 @@ const data = [
     name: "Lawrence Mandong",
     title: "Software Engineer @Decagon",
     recommendation:
-      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=2",
+      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=0",
     contact: "https://www.linkedin.com/in/lawrence-mandong/",
   },
   {
@@ -49,7 +49,7 @@ const data = [
     name: "Umar Moh'd Tambari",
     title: "C.E.O TMB Express Ltd",
     recommendation:
-      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=2",
+      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=0",
     contact:
       "https://www.linkedin.com/in/umar-muhammad-tambari-0256731a/",
   },
@@ -59,7 +59,7 @@ const data = [
     name: "Mubarak Abubakar Bunza",
     title: "Software Developer @Decagon",
     recommendation:
-      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=2",
+      "https://www.linkedin.com/in/yusufanka/details/recommendations/?detailScreenTabIndex=0",
     contact: "https://www.linkedin.com/in/mubarak-bunza/",
   },
   {
