@@ -49,7 +49,7 @@ const Header = () => {
           </div>
 
           <p>
-            As a passionate Javascript Engineer with experience in Software
+            As a passionate Software Engineer with experience in Software
             Engineering, I enjoy implementing light and scalable solutions
             using the best Agile practices for the satisfaction I get by
             overcoming challenges. I am very flexible with different
