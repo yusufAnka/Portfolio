@@ -4,7 +4,54 @@ import {BsLinkedin} from "react-icons/bs";
 import {FaGithub} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
 import {MdEmail} from "react-icons/md"
+import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub, FaTwitter } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
+const HeaderSocials = () => {
+  return (
+    <div className="header__socials">
+      <a
+        href="https://www.linkedin.com/in/yusufanka/"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="LinkedIn"
+      >
+        <BsLinkedin />
+      </a>
+
+      <a
+        href="https://github.com/yusufAnka"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="GitHub"
+      >
+        <FaGithub />
+      </a>
+
+      <a
+        href="https://twitter.com/YusufAnka_"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Twitter"
+      >
+        <FaTwitter />
+      </a>
+
+      <a
+        href="mailto:yusufanka54@gmail.com"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Email"
+      >
+        <MdEmail />
+      </a>
+    </div>
+  );
+};
+
+export default HeaderSocials;
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
