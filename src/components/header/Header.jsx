@@ -18,7 +18,7 @@ const Header = () => {
                             <img src={Anka} alt="yusuf" />
                         </div>
                         
-                        <h5 className='txt'>Frontend Developer</h5>
+                        <h5 className='txt'>Software Developer</h5>
                         <CTA />
                         
                     </div>
