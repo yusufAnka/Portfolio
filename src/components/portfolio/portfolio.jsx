@@ -19,9 +19,9 @@ const data = [
   {
     id: 2,
     img: proj3,
-    title: "Decagon Fellowship website",
-    github: "https://github.com/decadevs/score-card-api",
-    demo: "https://fellowship.decagonhq.dev/engineer/login",
+    title: "ARE Muajjal Supplies",
+    github: "https://github.com/yusufAnka/aremuajjal",
+    demo: "https://www.aremuajjal.com/",
   },
   {
     id: 3,
