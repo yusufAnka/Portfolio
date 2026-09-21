@@ -26,9 +26,9 @@ const data = [
   {
     id: 3,
     img: proj4,
-    title: "Contributed to: Fizido Payment Application (c) Califf Technology",
-    github: "https://fizido.com/#FAQs",
-    demo: "https://online.fizido.com/",
+    title: "DANFATIMA Real Estate Limited",
+    github: "https://github.com/yusufAnka/danfatima",
+    demo: "https://danfatima.com/realestate",
   },
   {
     id: 4,
@@ -47,10 +47,10 @@ const data = [
   {
     id: 6,
     img: proj5,
-    title: "Score Card",
+    title: "Device Intel",
     github:
-      "https://github.com/decadevs/live-project-score-card-sq011a-group-2-frontend-group-2-project-node-sq011",
-    demo: "https://github.com/yusufAnka/Score-Card",
+      "https://github.com/yusufAnka/device-intel",
+    demo: "https://device-intel-two.vercel.app/login",
   },
 ];
 
